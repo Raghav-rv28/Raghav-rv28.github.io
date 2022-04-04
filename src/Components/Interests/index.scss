@@ -1,0 +1,46 @@
+
+.page-heading{
+    display: block;
+    color: lightcoral;
+    font-size: 2.5rem;
+    transform: translateX(-3.5rem);
+    text-align: center;
+}
+
+.container-interest{
+    display: inline;
+    margin: 0 1rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 15vw;
+    padding: 2.5rem 2.5rem;
+    margin: 0 2rem;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-weight: 500;
+    img{
+        width: 75%;
+    }
+    .card-body{
+        font-size: 1rem;
+        text-align: center;
+        color: lightcoral;
+        &:hover{
+            color: #fff;
+        }
+    }
+
+    &:hover{
+        transition-timing-function: ease-in-out;
+        transition-duration: 250ms;
+        transform: scale(1.05,1.05);
+        background-image: linear-gradient(rgb(252, 110, 110),rgb(240, 172, 172));
+        
+    }
+}

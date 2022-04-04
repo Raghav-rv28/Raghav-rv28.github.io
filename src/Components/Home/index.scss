@@ -1,0 +1,49 @@
+
+.home-page{
+    .page-heading{
+        position:absolute;
+        left: 12%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 40%;
+        max-height: 90%;
+    }
+    h1{
+        color:#fff;
+        font-size: 64px;
+        margin: 0;
+        font-weight: 400;
+        img{
+            width: 250px;
+        }
+    }
+}
+
+.contactme-btn{
+    color: lightcoral;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 2px solid lightcoral;
+    margin-top: 25px;
+    float: left;
+    border-radius:5px ;
+    animation: fadeInAnimation 1s 1.8s backwards;
+    &:hover{
+        background-color: lightcoral;
+        color: #222;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 960px){
+    .home-page{
+        .page-heading{
+            width: 100%;
+            left: 10%;
+        }
+    }
+}
