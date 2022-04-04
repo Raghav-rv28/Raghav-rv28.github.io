@@ -24,16 +24,17 @@
     justify-content: center;
     border-radius: 10px;
     font-weight: 500;
+    color: lightcoral;
     img{
-        width: 75%;
+        width: 60%;
     }
     .card-body{
         font-size: 1rem;
         text-align: center;
-        color: lightcoral;
-        &:hover{
-            color: #fff;
-        }
+        
+        // &:hover{
+            
+        // }
     }
 
     &:hover{
@@ -41,6 +42,6 @@
         transition-duration: 250ms;
         transform: scale(1.05,1.05);
         background-image: linear-gradient(rgb(252, 110, 110),rgb(240, 172, 172));
-        
+        color: #fff;
     }
 }

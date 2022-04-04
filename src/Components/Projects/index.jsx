@@ -10,7 +10,7 @@ const Project = (props) =>{
         <div className="project">
             <img src={props.imgsrc} alt={props.title} />
             <h2>{props.title}</h2>
-            <button><a href={props.codeLink}>Code</a></button>
+            <button><a target="_blank" href={props.codeLink}>Code</a></button>
         </div>)
 }
 
@@ -19,11 +19,9 @@ const Projects = () => {
     const [letterClass, setLetterClass] = useState('text-animate')  
    
     useEffect(()=>{
-        return ()=>{
          setTimeout(()=>{
             setLetterClass('text-animate-hover')
         },3000)
-    }
     },[])
 
 
@@ -37,7 +35,7 @@ const data= [
             title: "Web Dev"
         },
         {
-            id: "AI",
+            id: "ML",
             title: "ML & AI"
         },
         {

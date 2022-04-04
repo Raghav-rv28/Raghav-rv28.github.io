@@ -5,21 +5,16 @@
     display: block;
     width: 100%;
     text-align: center;
-    transform: translateX(-115px);
+    transform: translateX(-10vw);
+    font-size: 2.5rem;
     .page-heading{
         min-width: 425px;
         h1{
-            font-size: 108px;
+        transform: translate(3vw);
             color: lightcoral;
-            font-weight: 400;
             margin-top: 0;
             position: relative;
             margin-bottom: 20px;
-            transform: translateX(-2rem) ;
-        }
-        p{
-            font-size: 24px;
-            color: #fff;
         }
     }
 }
@@ -40,6 +35,8 @@
         font-size: 1rem;
         margin-right: 50px;
         background-color: #fff;
+        font-weight: 600;
+        font-size: 18px;
         padding: 0.4rem 0.8rem;
         border-radius: 10px;
         cursor: pointer;

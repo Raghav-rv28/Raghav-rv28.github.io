@@ -6,21 +6,18 @@ import About from './Components/About'
 import Contact from './Components/Contact'
 import Interests from './Components/Interests'
 import Projects from './Components/Projects'
-import './App.scss';
 
 function App() {
   return (
-    <>
-          <Routes>
+    <Routes>
         <Route path="/" element = { <Layout />} >
-            <Route index element={< Home/>} />
-            <Route path='About' element={< About/>} />
-            <Route path='Contact' element={< Contact/>} />
-            <Route path='Interests' element={< Interests/>} />
-            <Route path='Projects' element={< Projects/>} />
+        <Route index element={ <Home/>} />
+        <Route path='about' element={<About/>} />
+        <Route path='Contact' element={<Contact/>} />
+        <Route path='Interests' element={<Interests/>} />
+        <Route path='Projects' element={<Projects/>} />
         </Route>
     </Routes>
-    </>
   );
 }
 

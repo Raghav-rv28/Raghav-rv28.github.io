@@ -1,0 +1,40 @@
+
+.about-page{
+.page-heading{
+    width: 100%;
+    margin: 2rem;
+    transform: translateX(-10vw);
+    vertical-align: table-cell;
+    max-height: 90%;
+    font-size: 2.5rem;
+    h1{
+        color: lightcoral;
+        margin-top: 0;
+        position: relative;
+        margin-bottom: 40px;
+        left:10px;
+    }
+}
+.coded-about-me{
+    margin: 5rem 0;
+    display: flex;
+    direction: row;
+    justify-content: space-around;
+    transform: translateX(-175px);
+    p{
+        color: #fff;
+        font-size: 18px;
+        width: 30%;
+        align-self: flex-start;
+        transform: translateY(100px);
+        
+    }
+    .my-img-holder{
+        transform: translateX(-175px);
+    }
+    .my-img{
+        border-radius: 50%;
+        max-width: 360px;
+    }
+}
+}
