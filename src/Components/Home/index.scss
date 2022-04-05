@@ -18,20 +18,20 @@
 }
 
 .contactme-btn{
-    color: lightcoral;
+    color: rgb(245, 137, 137);
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 4px;
     font-family: sans-serif;
     text-decoration: none;
     padding: 10px 18px;
-    border: 2px solid lightcoral;
+    border: 2px solid rgb(245, 137, 137);
     margin-top: 25px;
     float: left;
     border-radius:5px ;
     animation: fadeInAnimation 1s 1.8s backwards;
     &:hover{
-        background-color: lightcoral;
+        background-color: rgb(245, 137, 137);
         color: #222;
         font-weight: 600;
     }

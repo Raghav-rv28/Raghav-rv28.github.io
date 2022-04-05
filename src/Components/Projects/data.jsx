@@ -42,6 +42,30 @@ export const AllprojectsData = [
         title: "E-comm Wordpress Website",
         codeLink: "https://dubaijewellers.ca",
         id: "Web"
+    },
+    {
+        imgsrc: portfolio,
+        title: "portfolio website",
+        codeLink: "https://Raghav-rv28.github.io/portfolio",
+        id: "Web"
+    },
+    {
+        imgsrc: dubai,
+        title: "E-comm Wordpress Website",
+        codeLink: "https://dubaijewellers.ca",
+        id: "Web"
+    },
+    {
+        imgsrc: portfolio,
+        title: "portfolio website",
+        codeLink: "https://Raghav-rv28.github.io/portfolio",
+        id: "Web"
+    },
+    {
+        imgsrc: dubai,
+        title: "E-comm Wordpress Website",
+        codeLink: "https://dubaijewellers.ca",
+        id: "Web"
     }
 ]
 export const WebProjectsData = [

@@ -9,7 +9,7 @@ export default function SideNavBar(){
     return ( <> 
     <div className = "navbar">
     <Link className='logo' to='/'>
-        <img src={LogoR} alt="logo" />
+        {/* <img src={LogoR} alt="logo" /> */}
     </Link>
     <nav>
         <NavLink exact="true" activeclassName="active" to=''>
@@ -28,7 +28,7 @@ export default function SideNavBar(){
             <FontAwesomeIcon icon={faEnvelope} color="#4d4d4d" />
         </NavLink>
     </nav>
-    <ul>
+    {/* <ul>
         <li>
             <a target="_blank" rel="noreferrer" href="https://github.com/Raghav-rv28">
                 <FontAwesomeIcon icon={faGithub} color ="#4d4d4d" />
@@ -40,7 +40,7 @@ export default function SideNavBar(){
             </a>
         </li>
 
-    </ul>
+    </ul> */}
     </div>
     </>
 )

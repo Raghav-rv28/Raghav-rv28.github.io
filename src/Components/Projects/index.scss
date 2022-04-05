@@ -11,7 +11,7 @@
         min-width: 425px;
         h1{
         transform: translate(3vw);
-            color: lightcoral;
+            color: rgb(245, 137, 137);
             margin-top: 0;
             position: relative;
             margin-bottom: 20px;
@@ -26,24 +26,26 @@
     align-items: center;
 
     ul{
-    margin: 10px;
-    padding: 0;
     list-style: none;
-    display: flex;    
+    display: flex;   
+    flex-direction: row;
+    flex-wrap: wrap; 
+    color: #fff;
 
     li{
         font-size: 1rem;
-        margin-right: 50px;
-        background-color: #fff;
+        margin: 25px;
+        min-width: 100px;
+        background-color: transparent;
         font-weight: 600;
         font-size: 18px;
         padding: 0.4rem 0.8rem;
-        border-radius: 10px;
         cursor: pointer;
         &.active{
-            color: lightsalmon;
-            background-color: #fff;
-            border: 2px solid lightsalmon;
+            color: rgb(245, 137, 137);
+            font-weight: 600;
+            font-size: 1.3rem;
+
         }
         }
     }
@@ -51,8 +53,9 @@
 .projects-container{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
-    margin-top: 2.5vw;
+    max-width: 90%;
 }
 
 .project{
@@ -60,13 +63,16 @@
     justify-content: center;
     align-items: center;
     width: 20vw;
+    min-width: 375px;
     height: 25vh;
     overflow: hidden;
-    margin: 0 2.5rem;
+    margin: 2.5rem 2.5rem;
     border-radius: 20px;
     position: relative;
-    
     &:hover{
+        width: 22vw;
+        height: 27vh;
+
         img{
             z-index: 0;
             opacity: 0.5;
@@ -84,7 +90,7 @@
         font-size: 2.2rem;
         position: absolute;
         transform: translateY(-2.2rem);
-        color: lightcoral;
+        color: rgb(245, 137, 137);
     }
     button{
         position: absolute;
@@ -92,18 +98,18 @@
         padding: 0.4rem 0.8rem;
         font-size: 1rem;
         border-radius: 0.2rem;
-        background-color: lightcoral;
+        background-color: rgb(245, 137, 137);
         border: 1px solid #000;
         a{
             text-decoration: none;
             color: #fff;
         &:hover{
-            color: lightcoral;
+            color: rgb(245, 137, 137);
         }
         }
         
         &:hover{
-            color: lightsalmon;
+            color: rgb(245, 137, 137);
             background-color: #fff;
             border: 2px solid lightsalmon;
         }
