@@ -1,3 +1,32 @@
+
+.navbar{
+    nav{
+             ul{
+         position: absolute;
+         bottom: 20px;
+         width: 100%;
+         display: block;
+         padding: 0;
+         text-align: center;
+         list-style: none;
+         margin: 0;
+
+         li{
+             a{
+                 padding: 7px 0;
+                 display: block;
+                 font-size: 18px;
+                 line-height: 20px;
+
+                 &:hover svg{
+                     color: lightcoral;
+                 }
+             }
+         }
+     }
+    }
+}
+
 @media (min-width: 968px) {
 .navbar {
     position: fixed;
@@ -9,18 +38,6 @@
     width: 100%;
     bottom: 10vh;
     
-    
-    // .logo {
-    //     display: block;
-    //     padding: 8px 0;
-        
-    //     img{
-    //         display: block;
-    //         margin: 80px auto;
-    //         width: 120px;
-    //         height: auto;
-    //     }
-    // }
      nav{
          display: flex;
          text-align: center;
@@ -42,7 +59,6 @@
              }
              &:hover{
                  color: rgb(245, 137, 137);
-                 transform: translateX(-150%);
                  svg{
                      opacity: 0;
                  }
@@ -52,7 +68,7 @@
         }
         &::after{
             content: "";
-            font-size: 32px;
+            font-size: 24px;
             font-weight: 700;
             letter-spacing: 2px;
             position: absolute;
@@ -66,30 +82,32 @@
         &:first-child{
             &::after{
                 content: "HOME";
+                transform: translateX(-100%);
             }
         }
     }
     a.about-link{
         &::after{
             content: "ABOUT";
+            transform: translateX(-160%);
         }
     }
     a.projects-link{
         &::after{
             content: "PROJECTS";
-            transform: translateX(-20px);
+            transform: translateX(-200%);
         }
     }
     a.intersets-link{
         &::after{
             content: "INTERESTS";
-            transform: translateX(-30px);
+            transform: translateX(-200%);
         }
     }
     a.contact-link{
         &::after{
             content: "CONTACT";
-            transform: translate(-10px);
+            transform: translate(-200%);
         }
     }
     a.active{
@@ -98,34 +116,12 @@
         }
     }
      }
-    //  ul{
-    //      position: absolute;
-    //      bottom: 20px;
-    //      width: 100%;
-    //      display: block;
-    //      padding: 0;
-    //      text-align: center;
-    //      list-style: none;
-    //      margin: 0;
 
-    //      li{
-    //          a{
-    //              padding: 7px 0;
-    //              display: block;
-    //              font-size: 18px;
-    //              line-height: 20px;
-
-    //              &:hover svg{
-    //                  color: lightcoral;
-    //              }
-    //          }
-    //      }
-    //  }
       
 }
 }
 
-@media (max-width: 568px) {
+@media (max-width: 968px) {
     .navbar{
         position: fixed;
         z-index: 3;

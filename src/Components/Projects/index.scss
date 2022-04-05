@@ -71,10 +71,10 @@
     &:hover{
         width: 22vw;
         height: 30vh;
-
+        background-color: #111;
         img{
             z-index: 0;
-            opacity: 0.5;
+            opacity: 0.2;
         }
     }
     img{
@@ -109,15 +109,12 @@
         a{
             text-decoration: none;
             color: #fff;
-        &:hover{
-            color: rgb(245, 137, 137);
-        }
         }
         
         &:hover{
             color: rgb(245, 137, 137);
             background-color: #fff;
-            border: 2px solid lightsalmon;
+            border: 2px solid rgb(245, 137, 137);
         }
     }
 }

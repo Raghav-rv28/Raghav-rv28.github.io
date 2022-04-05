@@ -37,7 +37,7 @@ const data= [
         },
         {
             id: "ML",
-            title: "ML & AI"
+            title: "ML & DA"
         },
         {
             id: "Software",
@@ -48,21 +48,35 @@ const data= [
 const [Selected,setSelected] = useState("All")
 const [portfolioData, setPortfolioData] = useState(AllprojectsData)
 
+function queryPortfolioData (value){
+    var newData =[]
+    for (let i =0;i<AllprojectsData.length;i++){
+        if(AllprojectsData[i].id == value){
+            newData.push(AllprojectsData[i])
+        }
+    }
+    console.log(newData);
+    setPortfolioData(newData)
+}
 
 useEffect(()=>{
     switch(Selected){
         default:
         case "All":
+            console.log(AllprojectsData)
             setPortfolioData(AllprojectsData)
             break;
+
         case 'Web':
-            setPortfolioData(WebProjectsData)
+            queryPortfolioData('Web')
             break;
-        case "Software":
-            setPortfolioData(SoftwareProjectsData)
+
+        case "Software":            
+        queryPortfolioData('Software')
             break;
-        case "ML":
-            setPortfolioData(MLProjectsData)
+
+        case "ML":        
+        queryPortfolioData('ML')
             break;
     }
 },[Selected])

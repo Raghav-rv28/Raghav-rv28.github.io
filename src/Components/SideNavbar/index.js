@@ -1,9 +1,7 @@
 import { Link, NavLink } from 'react-router-dom'
 import './index.scss'
-import LogoR from '../../assets/images/logo-image.png'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faEnvelope, faFolderClosed, faHome, faMagnifyingGlass, faUser } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 export default function SideNavBar(){
     return ( <> 

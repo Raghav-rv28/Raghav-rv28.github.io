@@ -23,17 +23,17 @@ function Card(props) {
 
 const data = [
   {
-    imgSrc: Logo1, 
+    imgSrc: Logo2, 
     title: "Machine Learning/Artificial Intelligence",
-    body:  "Skilled in using languages like Python, SQL for developing NN & other AI structures,and libraries like numpy, pandas, and anaconda."
+    body:  "Skilled in using languages like Python, SQL for developing NN & other AI structures,and libraries like numpy, pandas, and Experienced in using matplotlib and seaborn."
   },
   {
-    imgSrc: Logo2, 
+    imgSrc: Logo3, 
     title: "Software Development",
     body:  "Proficient in Developing Large framework based softwares like MVC, and OOP in multiple languages like Java, Javascript, Python."
   },
   {
-    imgSrc: Logo3, 
+    imgSrc: Logo1, 
     title: "Blockchain Technology/Quantitative Analysis",
     body:  "Dabbled with QA to make prediction models, and risk management tools using Data Analysis techniques like ANFIS,ANN and regressive modeling."
   },
