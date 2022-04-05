@@ -82,11 +82,11 @@ const sendEmail = (e) =>{
                 <span>raghavrudhra28@gmail.com</span>
             </div>
             <MapContainer
-            center={[43.730306605754876, -79.76435754194497]}
-            zoom={13}
+            center={[43.7303, -79.7643]}
+            zoom={10}
             >
                 <TileLayer url = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png "/>
-                <Marker position={[43.730306605754876, -79.76435754194497]}>
+                <Marker position={[43.7303, -79.7643]}>
                     <Popup>I am Looking for work in this area!</Popup>
                 </Marker>
             </MapContainer>

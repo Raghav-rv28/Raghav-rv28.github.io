@@ -8,15 +8,17 @@
 .container-intereset{
     display: flex;
     align-items: center;
-    justify-items: center;
-    
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     float: left;
-    width: 15vw;
+    width: 15%;
+    min-width: 15%;
     padding: 2.5rem 2.5rem;
     margin: 0 2rem;
     overflow: hidden;
@@ -43,5 +45,19 @@
         transform: scale(1.05,1.05);
         background-image: linear-gradient(rgb(252, 110, 110),rgb(240, 172, 172));
         color: #fff;
+    }
+}
+
+@media (max-width: 560px) {
+    .page-heading{
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+    .card{
+        min-width: 80%;
+        margin: 0;
+        img{
+            width: 40%;
+        }
     }
 }

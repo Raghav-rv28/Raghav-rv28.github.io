@@ -10,6 +10,7 @@ const Project = (props) =>{
         <div className="project">
             <img src={props.imgsrc} alt={props.title} />
             <h2>{props.title}</h2>
+            <p>{props.body}</p>
             <button><a target="_blank" href={props.codeLink}>Code</a></button>
         </div>)
 }
@@ -100,7 +101,8 @@ const PortfolioList = ({id, title,active,setSelected}) =>{
                             key = {nanoid()}
                             imgsrc={project.imgsrc}
                             title={project.title}
-                            codeLink={project.codeLink}/>)
+                            codeLink={project.codeLink}
+                            body = {project.body}/>)
                     })}
                 </div>
             </div>
