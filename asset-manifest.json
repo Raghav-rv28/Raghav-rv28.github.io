@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.bfa72930.css",
-    "main.js": "/static/js/main.de4c01e8.js",
+    "main.css": "/static/css/main.323b69ab.css",
+    "main.js": "/static/js/main.fbac696e.js",
     "static/media/me.jpg": "/static/media/me.9aab10990f0d77183044.jpg",
-    "static/media/logo-image.png": "/static/media/logo-image.1df6a409a2f7a2e1ff69.png",
     "static/media/portfolio.jpg": "/static/media/portfolio.c05bb57a692c5a6d8aa1.jpg",
     "static/media/muskaanrudhra.jpg": "/static/media/muskaanrudhra.0b290d89c3fd1b815a4a.jpg",
     "static/media/tenzies-game.jpg": "/static/media/tenzies-game.579885c0db27433044bf.jpg",
@@ -15,11 +14,11 @@
     "static/media/notes-app.jpg": "/static/media/notes-app.8336c80e34c8832d4911.jpg",
     "static/media/coding.png": "/static/media/coding.ad02d63870968fd4d1e7.png",
     "index.html": "/index.html",
-    "main.bfa72930.css.map": "/static/css/main.bfa72930.css.map",
-    "main.de4c01e8.js.map": "/static/js/main.de4c01e8.js.map"
+    "main.323b69ab.css.map": "/static/css/main.323b69ab.css.map",
+    "main.fbac696e.js.map": "/static/js/main.fbac696e.js.map"
   },
   "entrypoints": [
-    "static/css/main.bfa72930.css",
-    "static/js/main.de4c01e8.js"
+    "static/css/main.323b69ab.css",
+    "static/js/main.fbac696e.js"
   ]
 }
