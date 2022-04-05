@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.59b26afe.css",
-    "main.js": "/static/js/main.6c3f9d24.js",
+    "main.css": "/static/css/main.2afd835b.css",
+    "main.js": "/static/js/main.fb13c7c3.js",
     "static/media/me.jpg": "/static/media/me.9aab10990f0d77183044.jpg",
     "static/media/portfolio.jpg": "/static/media/portfolio.c05bb57a692c5a6d8aa1.jpg",
+    "static/media/Resume.pdf": "/static/media/Resume.462f519d2acec4964a95.pdf",
     "static/media/Covid-Dashboard.jpg": "/static/media/Covid-Dashboard.9f6f46ba20563f08075d.jpg",
     "static/media/muskaanrudhra.jpg": "/static/media/muskaanrudhra.0b290d89c3fd1b815a4a.jpg",
     "static/media/WaterResortReservationSystem.jpg": "/static/media/WaterResortReservationSystem.e6ffaa559cda6f4b9348.jpg",
@@ -16,11 +17,11 @@
     "static/media/notes-app.jpg": "/static/media/notes-app.8336c80e34c8832d4911.jpg",
     "static/media/coding.png": "/static/media/coding.ad02d63870968fd4d1e7.png",
     "index.html": "/index.html",
-    "main.59b26afe.css.map": "/static/css/main.59b26afe.css.map",
-    "main.6c3f9d24.js.map": "/static/js/main.6c3f9d24.js.map"
+    "main.2afd835b.css.map": "/static/css/main.2afd835b.css.map",
+    "main.fb13c7c3.js.map": "/static/js/main.fb13c7c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.59b26afe.css",
-    "static/js/main.6c3f9d24.js"
+    "static/css/main.2afd835b.css",
+    "static/js/main.fb13c7c3.js"
   ]
 }
