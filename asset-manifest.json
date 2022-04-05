@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.66984a16.css",
-    "main.js": "/static/js/main.fafc98f9.js",
+    "main.css": "/static/css/main.c8b14d66.css",
+    "main.js": "/static/js/main.2740fd13.js",
     "static/media/me.jpg": "/static/media/me.9aab10990f0d77183044.jpg",
     "static/media/logo-image.png": "/static/media/logo-image.1df6a409a2f7a2e1ff69.png",
+    "static/media/portfolio.jpg": "/static/media/portfolio.c05bb57a692c5a6d8aa1.jpg",
+    "static/media/muskaanrudhra.jpg": "/static/media/muskaanrudhra.0b290d89c3fd1b815a4a.jpg",
     "static/media/tenzies-game.jpg": "/static/media/tenzies-game.579885c0db27433044bf.jpg",
     "static/media/brain.png": "/static/media/brain.63b063791f7deca3f880.png",
+    "static/media/dubaijewellers.jpg": "/static/media/dubaijewellers.084e01b7cb95a9f0208b.jpg",
     "static/media/computer_won.jpg": "/static/media/computer_won.941744c7034ad7d046b2.jpg",
     "static/media/blockchain.png": "/static/media/blockchain.492c199fe6ec1b8ce135.png",
     "static/media/www.png": "/static/media/www.1cdc6affb48413c32db6.png",
     "static/media/notes-app.jpg": "/static/media/notes-app.8336c80e34c8832d4911.jpg",
     "static/media/coding.png": "/static/media/coding.ad02d63870968fd4d1e7.png",
     "index.html": "/index.html",
-    "main.66984a16.css.map": "/static/css/main.66984a16.css.map",
-    "main.fafc98f9.js.map": "/static/js/main.fafc98f9.js.map"
+    "main.c8b14d66.css.map": "/static/css/main.c8b14d66.css.map",
+    "main.2740fd13.js.map": "/static/js/main.2740fd13.js.map"
   },
   "entrypoints": [
-    "static/css/main.66984a16.css",
-    "static/js/main.fafc98f9.js"
+    "static/css/main.c8b14d66.css",
+    "static/js/main.2740fd13.js"
   ]
 }
