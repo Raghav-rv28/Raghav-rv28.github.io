@@ -8,7 +8,7 @@ import Logo1 from '../../assets/images/blockchain.png'
 import Logo2 from '../../assets/images/brain.png'
 import Logo3 from '../../assets/images/coding.png'
 import Logo4 from '../../assets/images/www.png'
-
+import { react,css,html,js,bootstrap,py,numpy,vs} from '../../assets/images/Ticker/index'
 function Card(props) {
   return(
   <div className="card">
@@ -45,7 +45,8 @@ const data = [
 ]
 export default function About() {
 
-    const [letterClass, setLetterClass] = useState('text-animate') 
+  const tickers = [react,css,html,js,bootstrap,py,numpy,vs]
+  const [letterClass, setLetterClass] = useState('text-animate') 
 
     useEffect(()=>{
        setTimeout(()=>{
@@ -60,7 +61,13 @@ export default function About() {
       imgSrc = {item.imgSrc}
       body = {item.body}
       />
-  })
+   })
+    const Ticker = ({ticker}) =>{
+      return (
+        <div className="ticker__item"><img src={ticker} alt=""/>
+          </div>)
+    }
+
   return (
     <div className='container interests-page'>
             <div className="page-heading">
@@ -76,6 +83,13 @@ export default function About() {
               {CardElements}
             </div>
             <Loader type="pacman"/>
+            <div className="ticker-wrap" id="interest">
+      <div className="ticker">
+              {tickers.map( (ticker)=>{
+                return <Ticker key={nanoid()}ticker={ticker}/>
+              })}
+        </div>
+    </div>
     </div>
   )
 }

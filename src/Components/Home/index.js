@@ -16,7 +16,8 @@ const Home =() => {
         if (!vantaEffect) {
           setVantaEffect(BIRDS({
             el: myRef.current,
-            backgroundAlpha: 0
+            backgroundAlpha: 0,
+            quantity: 3,
           }))
         }
         return () => {

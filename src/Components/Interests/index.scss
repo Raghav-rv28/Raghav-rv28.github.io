@@ -13,6 +13,9 @@
     position: relative;
 }
 
+#interest{
+    transform: (translateY(-30vh));
+}
 .card {
     display: flex;
     flex-direction: column;
@@ -49,10 +52,10 @@
 }
 
 @media (max-width: 560px) {
+    .interests-page{
     .page-heading{
         font-size: 1rem;
         margin-bottom: 2rem;
-        transform: translateX(25px);
     }
     .card{
         min-width: 80%;
@@ -61,4 +64,5 @@
             width: 40%;
         }
     }
+}
 }

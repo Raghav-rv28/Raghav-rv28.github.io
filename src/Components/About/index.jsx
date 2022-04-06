@@ -6,16 +6,26 @@ import resume from '../../assets/Resume.pdf'
 import AnimatedLetters from '../AnimatedLetters';
 import MyImg from '../../assets/images/me.jpg'
 import { faDownLeftAndUpRightToCenter, faMaximize, faX } from '@fortawesome/free-solid-svg-icons';
+import {
+  react,css,html,js,bootstrap,py,numpy,vs
+} from '../../assets/images/Ticker/index'
+import {nanoid} from 'nanoid'
 export default function About() {
 
     const [letterClass, setLetterClass] = useState('text-animate') 
-
+    const tickers = [
+      react,css,html,js,bootstrap,py,numpy,vs]
     useEffect(()=>{
       setTimeout(()=>{
          setLetterClass('text-animate-hover')
      },3000)
      },[])  
 
+    const Ticker = ({ticker}) =>{
+      return (
+        <div className="ticker__item"><img src={ticker} alt=""/>
+          </div>)
+    }
 
   return (
     <div className='container about-page'>
@@ -44,7 +54,7 @@ export default function About() {
                 'Nationality' : 'Indian'<br/>&#125;,<br/>
                 Education: &#123;<br/>
                   'Degree' : 'Bachelors',<br/>
-                  'Major' : 'Computer Science (DUH)',<br/>
+                  'Major' : 'Computer Science DUH',<br/>
                   'University' : 'Lakehead University',<br/>
                   &#125;,<br/>
                   Location: &#123;<br/>       
@@ -73,6 +83,13 @@ export default function About() {
               <img className="my-img"src={MyImg}></img>
               </div>
             </div>
+    <div className="ticker-wrap">
+      <div className="ticker">
+              {tickers.map( (ticker)=>{
+                return <Ticker key={nanoid()}ticker={ticker}/>
+              })}
+        </div>
+    </div>
     </div>
   )
 }

@@ -1,5 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap');
-
+$duration: 20s;
+@-webkit-keyframes ticker {
+    0% {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      visibility: visible;
+    }
+  
+    100% {
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+    }
+  }
+  
+  @keyframes ticker {
+    0% {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      visibility: visible;
+    }
+  
+    100% {
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+    }
+  }
+  .ticker-wrap {
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 100%;
+    bottom: -20vh;
+    overflow: hidden;
+    background-color: rgba(#000, 0); 
+    padding-left: 100%;
+    box-sizing: content-box;
+  
+    .ticker {
+      display: flex;
+      flex-direction: row;
+      height: 4rem;
+      line-height: 4rem;  
+      white-space: nowrap;
+      box-sizing: content-box;
+  
+      -webkit-animation-iteration-count: infinite; 
+              animation-iteration-count: infinite;
+      -webkit-animation-timing-function: linear;
+              animation-timing-function: linear;
+     -webkit-animation-name: ticker;
+             animation-name: ticker;
+      -webkit-animation-duration: $duration;
+              animation-duration: $duration;
+  
+      &__item {
+        display: flex;
+        width: 10%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0 2rem;
+        font-size: 2rem;
+        color: white;
+        overflow: hidden;
+        img{
+            max-width:100%;
+            max-height:100%;
+        }
+      }
+  
+    }
+  
+  }
 .about-page{
 .page-heading{
     width: 100%;
@@ -14,7 +87,9 @@
         margin-bottom: 40px;
         left:10px;
     }
+
 }
+
 .coded-about-me{
     margin: 5rem 0;
     display: flex;
@@ -23,6 +98,7 @@
     flex-wrap: wrap;
     font-family: 'Noto Sans Mono', monospace;
     p{
+        z-index: 2;
         max-height: 80%;
         position: relative;
         background-color: #333;
@@ -71,20 +147,50 @@
     }
     .my-img{
         border-radius: 50%;
-        max-width: 480px;
+        max-width: 360px;
     }
 }
 }
 
 
 @media (max-width: 568px) {
+    .about-page{
+        .ticker-wrap{
+            visibility: hidden;
+      }
     .page-heading{
+        width: 100%;
+        display: flex;
+        margin-top: 2rem;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+        justify-content: center;
+        font-size: 1.5rem;
     h1{
-        transform: translateX(-3.5rem);
         font-size: 2.5rem;
+        transform: translateX(-0.6rem);
     }
     }
     .coded-about-me{
-        margin: 0.5rem 0;
+        margin: 0.5rem 0.5rem;
+        width: 80%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        padding-left: 2.5vw;
+        p{
+            transform: translateX(1rem);
+            margin-left:0.2rem;
+            padding: 3rem 0 2rem 1rem;
+            font-size: 12px;
+            
+        }
+        .my-img{
+            transform: translateX(15px);
+            width: 90%;
+        }
     }
+}
 }

@@ -53,14 +53,14 @@ export const AllprojectsData = [
     {
         imgsrc: Tableau,
         title: "Tableau Dashboard",
-        codeLink: "",
+        codeLink: "https://public.tableau.com/views/Covid-19PG/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link",
         id: "ML",
     body: "Tableau Dashboard created using SQL Queries in PostgreSQL"
     },
     {
         imgsrc: Django,
         title: "Python Django Website",
-        codeLink: "",
+        codeLink: "https://github.com/Raghav-rv28/WaterResortReservationSystem",
         id: "Web",
         body: "Simple Python Website, framework built using Django and a valid working checkout system."
     }

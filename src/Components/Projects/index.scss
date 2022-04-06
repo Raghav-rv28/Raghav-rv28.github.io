@@ -1,5 +1,4 @@
 
-
 .projects-page{
     position: relative;
     display: block;
@@ -7,7 +6,6 @@
     text-align: center;
     font-size: 2.5rem;
     .page-heading{
-        min-width: 425px;
         h1{
             color: rgb(245, 137, 137);
             margin-top: 0;
@@ -61,11 +59,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 20vw;
+    width: 25vw;
     min-width: 375px;
     height: 25vh;
     overflow: hidden;
-    margin: 2.5rem 2.5rem;
+    margin: 2.5rem;
     border-radius: 20px;
     position: relative;
     &:hover{
@@ -79,7 +77,6 @@
     }
     img{
         width: 100%;
-        height: 100%;
         object-fit: cover;
         z-index: 1;
         transition: all 0.5s ease-in;
@@ -95,6 +92,7 @@
         font-size: 1.2rem;
         font-weight: 500;
         position: absolute;
+        padding-top: 1rem;
         color: rgb(250, 206, 206);
     }
     button{
@@ -105,7 +103,7 @@
         border-radius: 0.2rem;
         background-color: rgb(245, 137, 137);
         border: 1px solid #000;
-        transform: translateY(25px);
+        transform: translateY(35px);
         a{
             text-decoration: none;
             color: #fff;
@@ -120,6 +118,7 @@
 }
 
 @media (max-width: 568px) {
+    .projects-page{
     .page-heading{
         font-size: 1.5rem;
         margin-top: 2rem;
@@ -128,15 +127,19 @@
         ul{
             padding-left: 0;
         }
-        .project{
-            width: 80%;
-            margin: 2rem 2rem;
-            
-            &:hover{
-                width: 120%;
-                height: 150%;
-            }
+    }
+    .project{
+        width: 50%;
+        margin: 2rem 2rem;
+        img{
+            min-width: 50%;
+        }
+        
+        &:hover{
+            width: 120%;
+            height: 150%;
         }
     }
 
+}
 }
