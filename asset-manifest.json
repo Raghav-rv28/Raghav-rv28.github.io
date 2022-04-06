@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.ad0c5789.css",
-    "main.js": "/static/js/main.c0d27fd6.js",
+    "main.css": "/static/css/main.eb941f7e.css",
+    "main.js": "/static/js/main.85e176c0.js",
     "static/media/me.jpg": "/static/media/me.9aab10990f0d77183044.jpg",
     "static/media/portfolio.jpg": "/static/media/portfolio.c05bb57a692c5a6d8aa1.jpg",
     "static/media/Resume.pdf": "/static/media/Resume.462f519d2acec4964a95.pdf",
     "static/media/Covid-Dashboard.jpg": "/static/media/Covid-Dashboard.9f6f46ba20563f08075d.jpg",
     "static/media/muskaanrudhra.jpg": "/static/media/muskaanrudhra.0b290d89c3fd1b815a4a.jpg",
+    "static/media/React-icon.png": "/static/media/React-icon.8a6fc0a24a800d1e0f4a.png",
     "static/media/WaterResortReservationSystem.jpg": "/static/media/WaterResortReservationSystem.e6ffaa559cda6f4b9348.jpg",
     "static/media/tenzies-game.jpg": "/static/media/tenzies-game.579885c0db27433044bf.jpg",
     "static/media/brain.png": "/static/media/brain.63b063791f7deca3f880.png",
@@ -16,12 +17,19 @@
     "static/media/www.png": "/static/media/www.1cdc6affb48413c32db6.png",
     "static/media/notes-app.jpg": "/static/media/notes-app.8336c80e34c8832d4911.jpg",
     "static/media/coding.png": "/static/media/coding.ad02d63870968fd4d1e7.png",
+    "static/media/html-5.svg": "/static/media/html-5.794a64840888ff6bcae542f9a401fddf.svg",
+    "static/media/numpy.svg": "/static/media/numpy.781e01edc84cab331c1dbfb7f972032c.svg",
+    "static/media/javascript.svg": "/static/media/javascript.fd46ca41839433d73577989d86eb2fe2.svg",
+    "static/media/python.svg": "/static/media/python.42f87cb3c004a68af35276b967671a1c.svg",
+    "static/media/bootstrap.svg": "/static/media/bootstrap.c4f0a282577225ed29ca867983bf3dd9.svg",
+    "static/media/css-3.svg": "/static/media/css-3.632b6d133bdfb6cde391377b68148070.svg",
+    "static/media/vs.svg": "/static/media/vs.ccdcf4067a67bc77d69f2c0fb9b3ab24.svg",
     "index.html": "/index.html",
-    "main.ad0c5789.css.map": "/static/css/main.ad0c5789.css.map",
-    "main.c0d27fd6.js.map": "/static/js/main.c0d27fd6.js.map"
+    "main.eb941f7e.css.map": "/static/css/main.eb941f7e.css.map",
+    "main.85e176c0.js.map": "/static/js/main.85e176c0.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad0c5789.css",
-    "static/js/main.c0d27fd6.js"
+    "static/css/main.eb941f7e.css",
+    "static/js/main.85e176c0.js"
   ]
 }
