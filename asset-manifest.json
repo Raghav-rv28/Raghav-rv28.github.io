@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.4fc0bbc8.css",
-    "main.js": "/static/js/main.3b1e5db5.js",
+    "main.css": "/static/css/main.fd8b00cd.css",
+    "main.js": "/static/js/main.a46ef483.js",
     "static/media/me.jpg": "/static/media/me.9aab10990f0d77183044.jpg",
     "static/media/portfolio.jpg": "/static/media/portfolio.c05bb57a692c5a6d8aa1.jpg",
     "static/media/Resume.pdf": "/static/media/Resume.462f519d2acec4964a95.pdf",
     "static/media/Covid-Dashboard.jpg": "/static/media/Covid-Dashboard.9f6f46ba20563f08075d.jpg",
     "static/media/muskaanrudhra.jpg": "/static/media/muskaanrudhra.0b290d89c3fd1b815a4a.jpg",
     "static/media/React-icon.png": "/static/media/React-icon.8a6fc0a24a800d1e0f4a.png",
-    "static/media/housesbanner.png": "/static/media/housesbanner.4737b191603158d163f8.png",
     "static/media/Fifa.jpg": "/static/media/Fifa.5bd9052a7f309243c7af.jpg",
     "static/media/WaterResortReservationSystem.jpg": "/static/media/WaterResortReservationSystem.e6ffaa559cda6f4b9348.jpg",
+    "static/media/home-pricce-prediction.jpg": "/static/media/home-pricce-prediction.befce8f0bc9d392b5207.jpg",
     "static/media/vgsales.jpg": "/static/media/vgsales.12d0691fe0b2846b58cb.jpg",
     "static/media/tenzies-game.jpg": "/static/media/tenzies-game.579885c0db27433044bf.jpg",
     "static/media/brain.png": "/static/media/brain.63b063791f7deca3f880.png",
@@ -34,11 +34,11 @@
     "static/media/css-3.svg": "/static/media/css-3.632b6d133bdfb6cde391377b68148070.svg",
     "static/media/vs.svg": "/static/media/vs.ccdcf4067a67bc77d69f2c0fb9b3ab24.svg",
     "index.html": "/index.html",
-    "main.4fc0bbc8.css.map": "/static/css/main.4fc0bbc8.css.map",
-    "main.3b1e5db5.js.map": "/static/js/main.3b1e5db5.js.map"
+    "main.fd8b00cd.css.map": "/static/css/main.fd8b00cd.css.map",
+    "main.a46ef483.js.map": "/static/js/main.a46ef483.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fc0bbc8.css",
-    "static/js/main.3b1e5db5.js"
+    "static/css/main.fd8b00cd.css",
+    "static/js/main.a46ef483.js"
   ]
 }
